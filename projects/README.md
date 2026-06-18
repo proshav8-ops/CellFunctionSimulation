@@ -1,5 +1,10 @@
 # Projects
 
+flowchart LR
+    A[aerobic-threshold] -->|host-only fluxes| C[phenotype-bridge]
+    B[xeno-organelle] -->|enhanced fluxes| C
+    A -->|baseline threshold| B
+
 | Directory | Status | Run tests |
 |-----------|--------|-----------|
 | `xeno-organelle/` | Active — FBA + ML organelle controller | `python test_synthetic_organelle_sim.py` |
