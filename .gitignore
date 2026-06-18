@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Simulation outputs
+outputs/
+*.png
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Cursor / local tooling (not part of the open-source project)
+agent-transcripts/
+mcps/
+terminals/
+canvases/
+__pycache__/
+
+# Secrets
+.env
+.env.*
